@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Histogram </title>
+</head>
+<body>
+    {% if histo %}
+    <div>
+        <img src="/static/{{histo}}" alt="Berry" style="width:100%">
+    </div>
+    {% else %}
+    <h1> No histogram to display, please run /allBerryStats</h1>
+    {% endif %}
+</body>
+</html>
