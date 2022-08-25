@@ -10,13 +10,15 @@ Small project to display Pokemon's berries information
 ``GET /allBerryStats/histogram``
 
 # Installation Guide
+# Pre requirements 
+``Python 3+``
 # Step 1. Add env file
 ``Create  .env file inside root's path of the project``
 # Step 2. Add environment variables
 >>>FLASK_APP=app
 >>>FLASK_DEBUG=True
 # Step 3. Install required libraries
-``install -r requirements.txt``
+``pip install -r requirements.txt``
 # Step 4 Run Flask
 ``flask run``
 >>>Now you are ready to start using the project :) 
